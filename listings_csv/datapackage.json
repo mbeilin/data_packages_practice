@@ -1,0 +1,121 @@
+{
+  "bytes": 2823065,
+  "count_of_rows": 19700,
+  "hash": "79a61a5b0ab6b521cc28efe6bca823f6",
+  "name": "listings_csv",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 2823065,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "6b8c1edb0f3388c0084dc808a63a0ec0",
+      "name": "listings",
+      "path": "listings.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "id",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "host_id",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "host_name",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "neighbourhood_group",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "neighbourhood",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "latitude",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "longitude",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "room_type",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "price",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "minimum_nights",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "number_of_reviews",
+            "type": "integer"
+          },
+          {
+            "format": "%Y-%m-%d",
+            "name": "last_review",
+            "type": "date"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "reviews_per_month",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "calculated_host_listings_count",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "availability_365",
+            "type": "integer"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "title": "listings.csv"
+}
